@@ -1,0 +1,20 @@
+{
+  "name": "bcmarketplace/mariadb-compatibility",
+  "version": "1.0.0",
+  "description": "A Module that allows development with MariaDB versions up to 10.6",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "BCMarketplace\\MariaDBCompatibility\\": ""
+    }
+  }
+}
